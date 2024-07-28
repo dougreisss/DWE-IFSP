@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Validação</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Formulário de Validação</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <form action="recebe-validacao" method="post">
+            <fieldset>
+                <legend>Informações do Formulário</legend>
+
+                <label for="upload">Upload:</label>
+                <input type="file" id="upload" name="upload"><br><br>
+
+                <label for="tema">Tema:</label>
+                <select id="tema" name="tema" multiple>
+                    <optgroup label="Cores">
+                        <option value="azul" selected>Azul</option>
+                        <option value="vermelho">Vermelho</option>
+                        <option value="verde">Verde</option>
+                    </optgroup>
+                    <optgroup label="Tamanhos">
+                        <option value="pequeno">Pequeno</option>
+                        <option value="médio">Médio</option>
+                        <option value="grande">Grande</option>
+                    </optgroup>
+                </select><br><br>
+
+                <label for="input1">Campo 1 (Autocomplete):</label>
+                <input type="text" id="input1" name="input1" list="datalist1">
+                <datalist id="datalist1">
+                    <option value="Opção 1">
+                    <option value="Opção 2">
+                    <option value="Opção 3">
+                </datalist><br><br>
+
+                <label for="input2">Campo 2 (Autocomplete):</label>
+                <input type="text" id="input2" name="input2" list="datalist2">
+                <datalist id="datalist2">
+                    <option value="Escolha 1">
+                    <option value="Escolha 2">
+                    <option value="Escolha 3">
+                </datalist><br><br>
+
+                <label for="disabled">Campo Desabilitado:</label>
+                <input type="text" id="disabled" name="disabled" disabled><br><br>
+
+                <label for="readonly">Campo Somente Leitura:</label>
+                <input type="text" id="readonly" name="readonly" readonly value="Valor somente leitura"><br><br>
+
+                <label for="placa">Placa do Carro:</label>
+                <input type="text" id="placa" name="placa" pattern="[A-Za-z]{3}\s\d{4}" placeholder="AAA 1111"
+                    required><br><br>
+
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" pattern="\d{5}-\d{3}" placeholder="11111-111" required><br><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </fieldset>
+        </form>
+    </article>
+
+    <footer>
+        <p>&copy; Formulário de Validação</p>
+    </footer>
+
+</body>
+
+</html>
