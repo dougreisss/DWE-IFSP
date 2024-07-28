@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: https://cityrunnerstips.netlify.app/sitemap.xml
+Sitemap: https://cityrunnerstips.netlify.app/utils/sitemap.xml

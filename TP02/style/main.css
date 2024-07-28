@@ -54,12 +54,14 @@ footer {
     background: #ADE0FF;
     margin-top: 2%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 footer p {
     font-family: "Roboto Mono", monospace;
     display: flex;
-    align-items: center;
+    justify-content: center;
     color: #333; 
     margin-left: 2%;
 }

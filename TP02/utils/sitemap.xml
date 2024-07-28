@@ -6,31 +6,35 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
   <loc>https://cityrunnerstips.netlify.app/</loc>
-  <lastmod>2024-04-27T19:57:55+00:00</lastmod>
+  <lastmod>2024-07-28T23:31:58+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://cityrunnerstips.netlify.app/corredores-iniciante</loc>
-  <lastmod>2024-04-27T19:57:55+00:00</lastmod>
+  <loc>https://cityrunnerstips.netlify.app/pages/trainingtips/corredores-iniciante</loc>
+  <lastmod>2024-07-28T23:31:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://cityrunnerstips.netlify.app/corredores-lesoes</loc>
-  <lastmod>2024-04-27T19:57:55+00:00</lastmod>
+  <loc>https://cityrunnerstips.netlify.app/pages/trainingtips/corredores-lesoes</loc>
+  <lastmod>2024-07-28T23:31:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://cityrunnerstips.netlify.app/corredores-nutricao</loc>
-  <lastmod>2024-04-27T19:57:55+00:00</lastmod>
+  <loc>https://cityrunnerstips.netlify.app/pages/trainingtips/corredores-nutricao</loc>
+  <lastmod>2024-07-28T23:31:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://cityrunnerstips.netlify.app/professor</loc>
-  <lastmod>2024-04-27T19:57:55+00:00</lastmod>
+  <loc>https://cityrunnerstips.netlify.app/pages/contacts/professor</loc>
+  <lastmod>2024-07-28T23:31:58+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cityrunnerstips.netlify.app/utils/report.pdf</loc>
+  <lastmod>2024-07-28T23:31:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 

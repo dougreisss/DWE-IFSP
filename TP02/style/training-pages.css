@@ -1,0 +1,21 @@
+.section-training-main {
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 100%;
+}
+
+.section-training-main h1, h2 {
+    color: #333; 
+    font-size: 30px;
+}
+
+.section-training-main h3 {
+    margin-top: 1%;
+    color: #333; 
+}
+
+.section-training-main p {
+    font-family: "Roboto Mono", monospace;
+    width: 95%;
+    margin-top: 0.5%;
+}
